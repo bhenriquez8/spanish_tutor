@@ -1,5 +1,20 @@
 import json
 import random
+import deepl
+from dotenv import dotenv_values
+
+secrets=dotenv_values(".env")
+DEEPL_API_KEY = secrets["API_KEY"]
+
+def translate_with_deepl(eng_sentence="Hello, world"):
+    if not DEEPL_API_KEY:
+        return None
+
+    deepl_client = deepl.DeepLClient(DEEPL_API_KEY)
+
+    result = deepl_client.translate_text(eng_sentence, target_lang="ES")
+    print(result.text)
+
 
 def get_sentences(data, category, count):
     # Validate top-level structure
@@ -41,13 +56,14 @@ def display_menu():
     print("| Option [1]: Imperfect                   |")
     print("| (random # of English sentences awaits!) |")
     print("|                                         |")
-    print("| Enter your choice! 1 or 2               |")
+    print("| Enter your choice! 0 or 1               |")
     print("==========================================")
     
 if __name__ == "__main__":
     with open("sentences.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    """
     categories = ["preterite", "imperfect"]
 
     display_menu()
@@ -69,4 +85,5 @@ if __name__ == "__main__":
         print("Wow! Perfect score!")
     else:
         print(f"Completed! You got '{amount-incorrect_counter}/{amount}' correct!")
-            
+    """
+    translate_with_deepl()
