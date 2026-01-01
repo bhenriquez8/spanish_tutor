@@ -1,0 +1,136 @@
+{
+  "categories": {
+    "preterite": [
+      {
+        "id": "pret_001",
+        "english": "I went to the store yesterday.",
+        "spanish": "Fui a la tienda ayer.",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_002",
+        "english": "She finished the project last night.",
+        "spanish": "Ella terminó el proyecto anoche.",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_003",
+        "english":"Did you receive a letter this morning?",
+        "spanish":"Recibio usted una carta esta manana",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_004",
+        "english":"I wrote a composition last night",
+        "spanish":"Escribi una composicion anoche",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_004",
+        "english":"I bought the car in Mexico",
+        "spanish":"Compre el auto en Mexico",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_005",
+        "english":"Did you see the doctor this afternoon?",
+        "spanish":"Vio usted al doctor esta tarde?",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_006",
+        "english":"Did you read the sentences in the class?",
+        "spanish":"Leyo usted las frases en la clase?",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_007",
+        "english":"I read a book on the plane",
+        "spanish":"Lei un libro en el avion",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_008",
+        "english":"They spent the night in San Francisco",
+        "spanish":"Pasaron la noche en San Francisco",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_009",
+        "english":"The doctor and I took a taxi",
+        "spanish":"El doctor y yo tomamos un taxi",
+        "difficulty": 1
+      },
+      {
+        "id": "pret_010",
+        "english":"They sang very well this afternoon",
+        "spanish":"Cantaron muy bien esta tarde",
+        "difficulty": 1
+      }
+    ],
+
+    "imperfect": [
+      {
+        "id": "imp_001",
+        "english": "I used to walk to school.",
+        "spanish": "Yo caminaba a la escuela.",
+        "difficulty": 1
+      },
+      {
+        "id": "imp_002",
+        "english": "We were watching TV when it started raining.",
+        "spanish": "Estábamos viendo la televisión cuando empezó a llover.",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_003",
+        "english": "I said that it was delicious",
+        "spanish": "Dije que era delicioso",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_004",
+        "english": "Who said that he was thin?",
+        "spanish": "Quien dijo que era delgado?",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_005",
+        "english": "We said that he was charming",
+        "spanish": "Dijimos que era simpatico",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_006",
+        "english": "They said that he was tall",
+        "spanish": "Dijeron que era alto",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_007",
+        "english": "He thought that she was pretty",
+        "spanish": "Creia que era bonita",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_008",
+        "english": "I was going to take her to the movies",
+        "spanish": "Iba a llevarla al cine",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_009",
+        "english": "He was going to give him the money",
+        "spanish": "Iba a darle el dinero",
+        "difficulty": 2
+      },
+      {
+        "id": "imp_010",
+        "english": "We were going to make candy",
+        "spanish": "Ibamos a hacer dulces",
+        "difficulty": 2
+      }
+    ]
+  }
+}
+
