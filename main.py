@@ -12,7 +12,6 @@ if __name__ == "__main__":
             raise ValueError
     except ValueError:
         print("Invalid input. Please enter 0 or 1.")
-        return
 
     category = "preterite" if category == 0 else "imperfect"
     rndm_sentence = get_sentences(data, category, 1)
@@ -27,6 +26,9 @@ if __name__ == "__main__":
 
     user_words = normalize_sentence(user_translation)
     deepl_words = normalize_sentence(deepl_translation)
+
+    print(f"[DEBUG] User words: '{user_words}'")
+    print(f"[DEBUG] DeepL words: '{deepl_words}'")
 
     user_tense = detect_tense(user_words)
     deepl_tense = detect_tense(deepl_words)

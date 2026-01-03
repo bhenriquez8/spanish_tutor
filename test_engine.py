@@ -1,6 +1,6 @@
 import unittest
 
-from main import (
+from engine import (
     detect_tense,
     calculate_overlap,
     compare_translation,
